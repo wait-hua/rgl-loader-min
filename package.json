@@ -1,0 +1,18 @@
+{
+  "name": "rgl-loader-min",
+  "version": "0.1.1",
+  "description": "regular-loader to minimize the space",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/store.js.git"
+  },
+  "bugs":{
+    "url": ""
+  },
+  "author": "friday_sh",
+  "license": "MIT"
+}
