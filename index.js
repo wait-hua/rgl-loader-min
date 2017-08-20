@@ -2,8 +2,8 @@ var loaderUtils = require("loader-utils");
 
 module.exports = function(content) {
     this.cacheable && this.cacheable();
-    
-    var query = loaderUtils.getOptions(this.query) || {};
+    // 使用 loader-utils 1.0.1版本以上的getOptions方法，支持webpack query及webpack2的option写法
+    var query = loaderUtils.getOptions(this) || {};
     var tpl = content || '';
 
     tpl = cleanRedundantCode(tpl, query);// remove redundant code
