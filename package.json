@@ -8,11 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaywcjlove/store.js.git"
+    "url": "https://github.com/wait-hua/rgl-loader-min.git"
   },
-  "bugs":{
-    "url": ""
+  "bugs": {
+    "url": "https://github.com/wait-hua/rgl-loader-min/issues"
   },
   "author": "friday_sh",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "loader-utils": "^1.0.2"
+  }
 }
