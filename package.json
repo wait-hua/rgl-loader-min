@@ -1,6 +1,6 @@
 {
   "name": "rgl-loader-min",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "regular-loader to minimize the space",
   "main": "index.js",
   "scripts": {
